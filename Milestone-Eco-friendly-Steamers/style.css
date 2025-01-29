@@ -1,0 +1,88 @@
+
+/* Added a hero image of carpet steaming, using the same format as used on w3schools.com */
+body {
+  background-color: yellow;
+  margin: 0;
+  background-image: url("https://chetscleaning.com/wp-content/uploads/carpet-cleaning-equipment-wand-300x200.jpg");
+}
+
+header {
+  background-color: red;
+  height: 100px;
+}
+
+/* Changed background-color to green since pink made the image hard to see */
+img {
+  background-color: green;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* Changed background-color to green (just like Dr. Small) in case viewer's found the green-purple combo unappealing */
+.nav ul {
+  background-color: green;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+/* Changed background-color to white for this and .nav a. */
+.nav li {
+  background-color: white;
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+ 
+.nav a {
+  background-color: white;
+}
+
+section {
+  background-color: chocolate;
+  width: 840px;
+  margin: 50px auto 0 auto;
+}
+
+/* Centered text */
+.section-box {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Changed background-color based on recommendations from accessible-colors.com */
+#quote-offer-container {
+  background-color: #5E5EFF;
+  margin-right: 40px;
+}
+
+#quote-form-container {
+  background-color: orange;
+  padding: 20px;
+  margin-top: 30px;
+  height: 200px;
+}
+
+#quote-form {
+  background-color: salmon;
+}
+
+.form-field {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: blue;
+  color: white;
+  height: 40px;
+  width:  80px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="milestone" content="Foster-Pet">
+    <script src="https://tinyurl.com/2p9w5adj"></script>
+    <title>Foster A Pet</title>
+    <link href="style.css" rel="stylesheet"  type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sign Up to Foster a Pet</h1>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4">Available Pets</th>
+          </tr>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Breed</th>
+            <th>Picture</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Benny</td>
+            <td>2</td>
+            <td>Golden Retriever</td>
+            <td>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3YNRu7aelgluNIXT1OXPXdS5Xr2TbFpPf8Q&s" alt="A Golden Retriever">
+            </td>
+          </tr>
+          <tr>
+            <td>Felix</td>
+            <td>5</td>
+            <td>Orange Tabby</td>
+            <td>
+              <img src="https://cats.com/wp-content/uploads/2018/08/orange-tabby.jpg" alt="An Orange Tabby">
+            </td>
+          </tr>
+          <tr>
+            <td>Cooper</td>
+            <td>8</td>
+            <td>German Shepherd</td>
+            <td>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/220px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg" alt="A German Shepherd">
+            </td>
+          </tr>
+          <tr>
+            <td>Anna</td>
+            <td>3</td>
+            <td>Long-Haired Dachshund</td>
+            <td>
+              <img src="https://cdn.sanity.io/images/4ij0poqn/production/70a269d4f5f3fde35ce383ed5f3e2327aba45b58-1200x700.jpg" alt="A Long-Haired Dachshund">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <img src="assets/dog.png" alt="Cute Dog Looking Over Form" width="40%">
+    </header>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Jane Doe" name="name">
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="example@domain.com" name="email">
+      <label for="pw">Password</label>
+      <input type="password" id="pw" name="password">
+      <label for="num-pets">Number of Pets</label>
+      <input type="number" id="num-pets" min="0" name="num-pets">
+      <h4>Have you fostered before?</h4>
+      <label for="yes">
+        <input type="radio" id="yes" name="prev-experience">Yes</input>
+      </label>
+      <label for="no">
+        <input type="radio" id="no" name="prev-experience">No</input>
+      </label>
+      <h4>Which of these apply to your home?</h4>
+      <label for="apartment">Apartment</label>
+      <input type="checkbox" id="apartment" name="apartment">
+      <label for="children">Children</label>
+      <input type="checkbox" id="children" name="children">
+      <label for="yard">Yard</label>
+      <input type="checkbox" id="yard" name="yard">
+      <input type="submit" value="Sign Up!">
+    </form>
+  </body>
+</html>
